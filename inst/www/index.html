@@ -66,7 +66,30 @@
 <title>DamIT</title>
 </head>
 <script src="./opencpu/jquery-1.11.1.min.js"></script>
-<script src="./opencpu/js/opencpu.js"></script>
+<script src="./opencpu/opencpu.js"></script>
+<script> 
+$(function(){  
+  //button handler
+  $("#plotbutton").on("click", function(e){
+    e.preventDefault();
+    $("#plotbutton").attr("disabled", "disabled")
+    var req = $("#plotdiv").rplot("./damcat", {
+//      daySelect : $("#daySelect").val(),
+//      monthSelect : $("#monthSelect").val(),
+//      riverSelect : $("#riverSelect").val(),
+//      rainSelect : $("#rainSelect").val(),
+//      windSelect : $("#windSelect").val()
+    }).always(function(){
+      $("#plotbutton").removeAttr("disabled");
+    }).fail(function(){
+      alert("HTTP error " + req.status + ": " + req.responseText);
+    });
+  });
+  
+  //plot the default values on page load
+  $("#plotbutton").trigger("click")
+});
+</script>
 <body>
   <p>This is a program to predict rivers, with data fed being generated data.</p>
   
@@ -146,6 +169,7 @@
     <option value="True">True</option>
     <option value="False">False</option></select>
     </div>
+    <div id="plotdiv"></div>
     <div><button id="plotbutton">Update Graph</button></div>
 </body>
 </html>
