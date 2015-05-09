@@ -12,7 +12,9 @@ dam_prediction <- get(load('./data/River.rda'))
 
 fit <- rpart(Rank_Dam ~ Day + Month + River + Wind + Rain,method="class", data=dam_prediction,control=rpart.control(minsplit=4))
 
-damplot <- rpart.plot(fit, type=4, extra=1)
+damplot <- function() {
+  rpart.plot(fit, type=4, extra=1)
+}
 
 damcategory <- function(daySelect = "1", monthSelect = "January", riverSelect = "Sungai Galas, Dabong", rainSelect = "1", windSelect = "True"){
 
@@ -20,7 +22,7 @@ damcategory <- function(daySelect = "1", monthSelect = "January", riverSelect = 
     Day = as.numeric(daySelect),
     Month = monthSelect,
     River= riverSelect,
-    Rainfall =as.numeric(rainSelect),
+    Rain =as.numeric(rainSelect),
     Wind = windSelect)
 
   return(result = predict(fit,newdata=newdata,type=c("class")))
