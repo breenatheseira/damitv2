@@ -18,8 +18,8 @@ $(function(){
     }).fail(function(){
       alert("HTTP error " + req.status + ": " + req.responseText);
     });
-
-    //perform the request
+  });
+      //perform the request
     var result_req = ocpu.rpc("damcategory", {
       daySelect : $("#daySelect").val(),
       monthSelect : $("#monthSelect").val(),
@@ -29,8 +29,8 @@ $(function(){
     }, function(output){
       $("#category_result").text(output.result);
     });
-  });
-
+      console.log(output);
+      console.log(result_req);
   //plot the default values on page load
   $("#plotbutton").trigger("click")
 });
@@ -114,8 +114,10 @@ $(function(){
     <option value="True">True</option>
     <option value="False">False</option></select>
     </div>
+    <div>
+      Result: <div id="category_result"></div>
+    </div>
     <div id="plotdiv"></div>
-    Result: <div id="category_result"></div>
     <div><button id="plotbutton">Update Graph</button></div>
 </body>
 </html>

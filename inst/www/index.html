@@ -72,16 +72,7 @@ $(function(){
   //button handler
   $("#plotbutton").on("click", function(e){
     e.preventDefault();
-    $("#plotbutton").attr("disabled", "disabled")
-    var req = $("#plotdiv").rplot("damplot", {
-
-    }).always(function(){
-      $("#plotbutton").removeAttr("disabled");
-    }).fail(function(){
-      alert("HTTP error " + req.status + ": " + req.responseText);
-    });
-
-    //perform the request
+      //perform the request
     var result_req = ocpu.rpc("damcategory", {
       daySelect : $("#daySelect").val(),
       monthSelect : $("#monthSelect").val(),
@@ -89,10 +80,10 @@ $(function(){
       rainSelect : $("#rainSelect").val(),
       windSelect : $("#windSelect").val()
     }, function(output){
-      $("#category_result").text(output.result);
+      $("#category_result").text(output);
+      console.log(output[0]);
     });
   });
-
   //plot the default values on page load
   $("#plotbutton").trigger("click")
 });
@@ -163,7 +154,7 @@ $(function(){
     </select>
     <br/>
     Rain: <select id="rainSelect">
-    <option value="0" >No Rain</option>
+    <option value="0">No Rain</option>
     <option value="1" selected>Very Light Rain</option>
     <option value="2">Moderate Rain</option>
     <option value="3">Heavy Rain</option>
@@ -176,8 +167,9 @@ $(function(){
     <option value="True">True</option>
     <option value="False">False</option></select>
     </div>
-    <div id="plotdiv"></div>
-    <div id="category_result"></div>
+    <div>
+      Result: <div id="category_result"></div>
+    </div>
     <div><button id="plotbutton">Update Graph</button></div>
 </body>
 </html>
