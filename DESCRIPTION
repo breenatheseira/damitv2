@@ -1,7 +1,7 @@
 Package: damit
 Title: Damit Predicts Water Levels Against Generated Data
 Version: 0.0.0.9000
-Authors@R: Lim Choon Yun, Liew Zhi Ying
+Authors: Lim Choon Yun, Liew Zhi Ying
 Maintained By: Breena M. Theseira
 Description: Returns the prediction when the appropriate values were inserted
 Depends: R (>= 3.2.0)
