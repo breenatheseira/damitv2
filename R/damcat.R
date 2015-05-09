@@ -1,14 +1,13 @@
 # This app can change values daily:
 # Day 1, Month: Jan, River: Galas, Dabong, Wind: False, Rain: No - Very Heavy & Extreme
 
-setwd(".")
-
 library(car)
 library("rpart")
 library("rpart.plot")
 library("ggplot2")
 
-dam_prediction <- readRDS("./River.rda")
+dam_prediction <- get(load('./data/River.rda'))
+
 #dam_prediction$Wind<- recode(dam_prediction$Wind, "0:1.5='False'; 1.6:21.0='True'")
 
 fit <- rpart(Rank_Dam ~ Day + Month + River + Wind + Rain,method="class", data=dam_prediction,control=rpart.control(minsplit=4))
