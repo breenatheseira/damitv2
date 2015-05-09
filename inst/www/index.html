@@ -65,34 +65,41 @@
 </style>
 <title>DamIT</title>
 </head>
-<script src="./opencpu/jquery-1.11.1.min.js"></script>
-<script src="./opencpu/opencpu.js"></script>
-<script> 
-$(function(){  
+<script src="opencpu/jquery-1.10.2.min.js"> </script>
+<script src="opencpu/opencpu-0.4.js"> </script>
+<script>
+$(function(){
   //button handler
   $("#plotbutton").on("click", function(e){
     e.preventDefault();
     $("#plotbutton").attr("disabled", "disabled")
-    var req = $("#plotdiv").rplot("./damcat", {
-//      daySelect : $("#daySelect").val(),
-//      monthSelect : $("#monthSelect").val(),
-//      riverSelect : $("#riverSelect").val(),
-//      rainSelect : $("#rainSelect").val(),
-//      windSelect : $("#windSelect").val()
+    var req = $("#plotdiv").rplot("damplot", {
+
     }).always(function(){
       $("#plotbutton").removeAttr("disabled");
     }).fail(function(){
       alert("HTTP error " + req.status + ": " + req.responseText);
     });
+
+    //perform the request
+    var result_req = ocpu.rpc("damcategory", {
+      daySelect : $("#daySelect").val(),
+      monthSelect : $("#monthSelect").val(),
+      riverSelect : $("#riverSelect").val(),
+      rainSelect : $("#rainSelect").val(),
+      windSelect : $("#windSelect").val()
+    }, function(output){
+      $("#category_result").text(output.result);
+    });
   });
-  
+
   //plot the default values on page load
   $("#plotbutton").trigger("click")
 });
 </script>
 <body>
   <p>This is a program to predict rivers, with data fed being generated data.</p>
-  
+
   <div>
     <label>Day:</label>
     <!-- Day dropdown -->
@@ -170,6 +177,7 @@ $(function(){
     <option value="False">False</option></select>
     </div>
     <div id="plotdiv"></div>
+    <div id="category_result"></div>
     <div><button id="plotbutton">Update Graph</button></div>
 </body>
 </html>
