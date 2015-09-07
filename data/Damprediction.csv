@@ -1,0 +1,728 @@
+Year,Month,Station,Rainfall,Dam,Wind
+2013,1,Alor Setar,4,56,1.7
+2013,1,Alor Setar,4,61,0.8
+2013,1,Alor Setar,1,61,2.4
+2013,1,Alor Setar,1,51,1.6
+2013,1,Alor Setar,1,54,1.4
+2013,1,Alor Setar,1,48,1.1
+2013,1,Alor Setar,1,30,1
+2013,1,Alor Setar,2,36,1.2
+2013,1,Alor Setar,2,53,1.1
+2013,1,Alor Setar,1,25,1.5
+2013,1,Alor Setar,1,35,1.3
+2013,1,Alor Setar,1,53,1.5
+2013,1,Alor Setar,1,66,1.6
+2013,1,Alor Setar,1,40,1.4
+2013,1,Alor Setar,1,53,2.2
+2013,1,Alor Setar,1,41,2.8
+2013,1,Alor Setar,1,66,2.9
+2013,1,Alor Setar,1,66,2.7
+2013,1,Alor Setar,1,49,2.7
+2013,1,Alor Setar,1,56,2.5
+2013,1,Alor Setar,1,61,2.6
+2013,1,Alor Setar,1,55,1.2
+2013,1,Alor Setar,1,79,1.4
+2013,1,Alor Setar,1,72,2
+2013,1,Alor Setar,1,51,1.7
+2013,1,Alor Setar,1,57,1.7
+2013,1,Alor Setar,1,65,2.6
+2013,1,Alor Setar,1,35,2.5
+2013,1,Alor Setar,1,72,2.7
+2013,1,Alor Setar,4,32,2.3
+2013,2,Alor Setar,1,63,3
+2013,2,Alor Setar,1,45,3.1
+2013,2,Alor Setar,2,56,2.3
+2013,2,Alor Setar,1,87,2.5
+2013,2,Alor Setar,1,63,2.3
+2013,2,Alor Setar,1,40,2.3
+2013,2,Alor Setar,4,78,1.1
+2013,2,Alor Setar,1,72,1.2
+2013,2,Alor Setar,1,58,2.5
+2013,2,Alor Setar,1,59,3.1
+2013,2,Alor Setar,1,62,3.1
+2013,2,Alor Setar,3,60,2.1
+2013,2,Alor Setar,1,50,2.5
+2013,2,Alor Setar,1,22,2.4
+2013,2,Alor Setar,4,48,1.5
+2013,2,Alor Setar,1,61,2.7
+2013,2,Alor Setar,4,54,1.5
+2013,2,Alor Setar,1,70,2
+2013,2,Alor Setar,1,65,1.9
+2013,2,Alor Setar,1,50,2
+2013,2,Alor Setar,1,62,2.3
+2013,2,Alor Setar,1,43,1.6
+2013,2,Alor Setar,3,56,2.2
+2013,2,Alor Setar,4,55,1.2
+2013,2,Alor Setar,4,44,1.5
+2013,2,Alor Setar,5,51,1.6
+2013,2,Alor Setar,3,33,1.5
+2013,2,Alor Setar,4,60,1.6
+2013,3,Alor Setar,4,80,1.4
+2013,3,Alor Setar,1,74,1.3
+2013,3,Alor Setar,1,55,1.5
+2013,3,Alor Setar,1,46,2.8
+2013,3,Alor Setar,1,69,3.1
+2013,3,Alor Setar,1,73,2.7
+2013,3,Alor Setar,1,57,1.9
+2013,3,Alor Setar,1,72,2.3
+2013,3,Alor Setar,1,59,1.4
+2013,3,Alor Setar,1,51,1.6
+2013,3,Alor Setar,1,37,1.6
+2013,3,Alor Setar,1,54,1.9
+2013,3,Alor Setar,1,55,2
+2013,3,Alor Setar,1,48,2
+2013,3,Alor Setar,4,64,1.7
+2013,3,Alor Setar,5,60,1.5
+2013,3,Alor Setar,1,79,1.9
+2013,3,Alor Setar,1,68,1.7
+2013,3,Alor Setar,1,44,1.9
+2013,3,Alor Setar,1,34,1.7
+2013,3,Alor Setar,4,57,1.6
+2013,3,Alor Setar,3,57,1.5
+2013,3,Alor Setar,1,49,1.6
+2013,3,Alor Setar,1,59,1.7
+2013,3,Alor Setar,1,51,1.8
+2013,3,Alor Setar,1,51,1.8
+2013,3,Alor Setar,4,50,1.5
+2013,3,Alor Setar,1,35,1.7
+2013,3,Alor Setar,1,43,1.8
+2013,3,Alor Setar,1,51,2
+2013,3,Alor Setar,1,52,1.8
+2013,4,Alor Setar,4,63,1.9
+2013,4,Alor Setar,5,70,1.6
+2013,4,Alor Setar,2,50,1.5
+2013,4,Alor Setar,1,60,1.8
+2013,4,Alor Setar,4,34,2.4
+2013,4,Alor Setar,4,44,2.9
+2013,4,Alor Setar,1,59,2.2
+2013,4,Alor Setar,1,45,1.9
+2013,4,Alor Setar,4,49,1.4
+2013,4,Alor Setar,4,61,1.3
+2013,4,Alor Setar,4,36,1.3
+2013,4,Alor Setar,1,52,2.7
+2013,4,Alor Setar,3,51,1.2
+2013,4,Alor Setar,1,60,1.6
+2013,4,Alor Setar,1,56,2
+2013,4,Alor Setar,4,35,2
+2013,4,Alor Setar,5,46,1.5
+2013,4,Alor Setar,1,66,1.6
+2013,4,Alor Setar,1,59,1.9
+2013,4,Alor Setar,1,38,1.5
+2013,4,Alor Setar,4,44,1.8
+2013,4,Alor Setar,1,60,1.5
+2013,4,Alor Setar,5,55,1.8
+2013,4,Alor Setar,5,53,1.9
+2013,4,Alor Setar,3,46,1.7
+2013,4,Alor Setar,2,60,1.4
+2013,4,Alor Setar,3,40,1.9
+2013,4,Alor Setar,2,73,1.7
+2013,4,Alor Setar,3,44,1.9
+2013,4,Alor Setar,3,51,1.8
+2013,5,Alor Setar,4,52,2.1
+2013,5,Alor Setar,4,46,2.2
+2013,5,Alor Setar,1,55,2
+2013,5,Alor Setar,4,55,1.7
+2013,5,Alor Setar,4,53,1.6
+2013,5,Alor Setar,5,53,1.3
+2013,5,Alor Setar,4,39,1.1
+2013,5,Alor Setar,3,66,1.7
+2013,5,Alor Setar,5,46,1.6
+2013,5,Alor Setar,3,69,1.6
+2013,5,Alor Setar,1,61,1.7
+2013,5,Alor Setar,1,34,1.7
+2013,5,Alor Setar,1,47,1.7
+2013,5,Alor Setar,3,51,1.6
+2013,5,Alor Setar,1,43,2.1
+2013,5,Alor Setar,1,63,1.7
+2013,5,Alor Setar,1,56,1.7
+2013,5,Alor Setar,1,47,1.9
+2013,5,Alor Setar,3,53,1.6
+2013,5,Alor Setar,4,53,1.2
+2013,5,Alor Setar,1,57,2
+2013,5,Alor Setar,1,61,2.1
+2013,5,Alor Setar,1,50,2
+2013,5,Alor Setar,2,60,2
+2013,5,Alor Setar,1,72,2
+2013,5,Alor Setar,1,60,1.4
+2013,5,Alor Setar,1,45,1.6
+2013,5,Alor Setar,3,36,1.4
+2013,5,Alor Setar,1,54,1.6
+2013,5,Alor Setar,3,61,2.1
+2013,5,Alor Setar,1,58,2
+2013,6,Alor Setar,1,50,1.4
+2013,6,Alor Setar,5,39,1.5
+2013,6,Alor Setar,3,42,1.5
+2013,6,Alor Setar,1,64,1.6
+2013,6,Alor Setar,2,54,1.8
+2013,6,Alor Setar,3,42,1.3
+2013,6,Alor Setar,1,52,1.7
+2013,6,Alor Setar,1,51,1.3
+2013,6,Alor Setar,6,46,2.1
+2013,6,Alor Setar,3,62,3
+2013,6,Alor Setar,5,51,2.9
+2013,6,Alor Setar,4,55,2.1
+2013,6,Alor Setar,4,42,2
+2013,6,Alor Setar,1,42,1.5
+2013,6,Alor Setar,1,50,1.4
+2013,6,Alor Setar,5,40,1.7
+2013,6,Alor Setar,4,44,2.2
+2013,6,Alor Setar,5,55,2.1
+2013,6,Alor Setar,5,48,1.7
+2013,6,Alor Setar,1,62,1.6
+2013,6,Alor Setar,1,51,1.2
+2013,6,Alor Setar,1,45,1.3
+2013,6,Alor Setar,1,55,1.4
+2013,6,Alor Setar,1,42,1.2
+2013,6,Alor Setar,1,51,1.5
+2013,6,Alor Setar,3,48,1.9
+2013,6,Alor Setar,3,39,1.7
+2013,6,Alor Setar,1,50,2.1
+2013,6,Alor Setar,1,30,1.5
+2013,6,Alor Setar,4,41,1.6
+2013,7,Alor Setar,4,56,1.5
+2013,7,Alor Setar,2,39,1.7
+2013,7,Alor Setar,5,56,1.9
+2013,7,Alor Setar,4,41,2.2
+2013,7,Alor Setar,1,50,1.2
+2013,7,Alor Setar,3,56,1.4
+2013,7,Alor Setar,4,58,1.3
+2013,7,Alor Setar,2,57,1.2
+2013,7,Alor Setar,5,46,1.3
+2013,7,Alor Setar,4,45,1.9
+2013,7,Alor Setar,1,65,1.7
+2013,7,Alor Setar,1,66,1.5
+2013,7,Alor Setar,4,52,1.7
+2013,7,Alor Setar,4,40,2.1
+2013,7,Alor Setar,1,54,1.2
+2013,7,Alor Setar,3,37,1.2
+2013,7,Alor Setar,4,44,1.2
+2013,7,Alor Setar,1,55,1.7
+2013,7,Alor Setar,3,38,1
+2013,7,Alor Setar,1,50,1.2
+2013,7,Alor Setar,1,68,1.3
+2013,7,Alor Setar,1,33,1.5
+2013,7,Alor Setar,1,68,1.2
+2013,7,Alor Setar,1,70,1.2
+2013,7,Alor Setar,1,60,1.5
+2013,7,Alor Setar,1,74,1.5
+2013,7,Alor Setar,1,52,1.3
+2013,7,Alor Setar,1,32,1.2
+2013,7,Alor Setar,1,34,1.6
+2013,7,Alor Setar,1,44,1.5
+2013,7,Alor Setar,4,53,2
+2013,8,Alor Setar,3,43,1.6
+2013,8,Alor Setar,4,38,1.5
+2013,8,Alor Setar,1,62,1.6
+2013,8,Alor Setar,3,44,1.8
+2013,8,Alor Setar,4,35,1.7
+2013,8,Alor Setar,2,47,2.3
+2013,8,Alor Setar,3,66,1.3
+2013,8,Alor Setar,3,50,1.6
+2013,8,Alor Setar,3,51,1.3
+2013,8,Alor Setar,3,38,1
+2013,8,Alor Setar,3,32,2.2
+2013,8,Alor Setar,3,38,1.2
+2013,8,Alor Setar,1,29,1.3
+2013,8,Alor Setar,3,34,1
+2013,8,Alor Setar,4,46,1.1
+2013,8,Alor Setar,1,40,1.5
+2013,8,Alor Setar,1,46,1.8
+2013,8,Alor Setar,1,32,2.2
+2013,8,Alor Setar,1,57,1.7
+2013,8,Alor Setar,3,65,1.7
+2013,8,Alor Setar,2,47,1.4
+2013,8,Alor Setar,1,48,1.6
+2013,8,Alor Setar,1,55,1.5
+2013,8,Alor Setar,1,63,1.6
+2013,8,Alor Setar,1,40,1.1
+2013,8,Alor Setar,2,33,1.5
+2013,8,Alor Setar,2,43,1.4
+2013,8,Alor Setar,4,39,1.4
+2013,8,Alor Setar,3,35,1.1
+2013,8,Alor Setar,1,49,1.2
+2013,8,Alor Setar,4,33,1.6
+2013,9,Alor Setar,6,52,1.8
+2013,9,Alor Setar,2,36,1
+2013,9,Alor Setar,3,60,1.6
+2013,9,Alor Setar,4,39,2.3
+2013,9,Alor Setar,5,55,2.1
+2013,9,Alor Setar,5,53,1.8
+2013,9,Alor Setar,4,53,2
+2013,9,Alor Setar,4,40,1.6
+2013,9,Alor Setar,4,65,1.9
+2013,9,Alor Setar,5,35,1.5
+2013,9,Alor Setar,5,47,2.1
+2013,9,Alor Setar,2,49,1.9
+2013,9,Alor Setar,3,57,1.7
+2013,9,Alor Setar,2,44,1.7
+2013,9,Alor Setar,1,69,1.4
+2013,9,Alor Setar,1,47,1.4
+2013,9,Alor Setar,1,61,1.5
+2013,9,Alor Setar,1,47,1.6
+2013,9,Alor Setar,1,62,1.6
+2013,9,Alor Setar,3,57,1.8
+2013,9,Alor Setar,1,36,1.4
+2013,9,Alor Setar,1,56,1.9
+2013,9,Alor Setar,1,22,2.2
+2013,9,Alor Setar,1,62,1.6
+2013,9,Alor Setar,1,48,1.5
+2013,9,Alor Setar,4,50,1.6
+2013,9,Alor Setar,3,49,1.5
+2013,9,Alor Setar,4,53,1.6
+2013,9,Alor Setar,4,39,1.4
+2013,9,Alor Setar,4,53,1.2
+2013,10,Alor Setar,4,58,1.7
+2013,10,Alor Setar,4,41,1.8
+2013,10,Alor Setar,4,49,1.6
+2013,10,Alor Setar,1,69,2
+2013,10,Alor Setar,5,45,1.4
+2013,10,Alor Setar,4,42,2.3
+2013,10,Alor Setar,5,77,1.8
+2013,10,Alor Setar,4,44,2.2
+2013,10,Alor Setar,1,68,1.4
+2013,10,Alor Setar,1,56,1.8
+2013,10,Alor Setar,4,70,1.5
+2013,10,Alor Setar,4,40,1.8
+2013,10,Alor Setar,4,52,1.8
+2013,10,Alor Setar,4,44,1.5
+2013,10,Alor Setar,5,64,2.3
+2013,10,Alor Setar,2,52,1.8
+2013,10,Alor Setar,5,61,1.6
+2013,10,Alor Setar,3,64,1.6
+2013,10,Alor Setar,6,61,1.7
+2013,10,Alor Setar,4,67,1.3
+2013,10,Alor Setar,5,52,1.8
+2013,10,Alor Setar,4,55,1.1
+2013,10,Alor Setar,4,66,1.1
+2013,10,Alor Setar,4,45,1.1
+2013,10,Alor Setar,4,60,1.6
+2013,10,Alor Setar,2,68,1.6
+2013,10,Alor Setar,3,49,1
+2013,10,Alor Setar,5,67,2.1
+2013,10,Alor Setar,3,60,1.3
+2013,10,Alor Setar,3,37,1.4
+2013,10,Alor Setar,4,80,1.2
+2013,11,Alor Setar,1,38,1.6
+2013,11,Alor Setar,1,49,1.5
+2013,11,Alor Setar,3,59,1.4
+2013,11,Alor Setar,1,46,1.8
+2013,11,Alor Setar,1,59,1.8
+2013,11,Alor Setar,1,52,1.4
+2013,11,Alor Setar,1,66,1.1
+2013,11,Alor Setar,2,66,1.5
+2013,11,Alor Setar,3,69,1.8
+2013,11,Alor Setar,2,63,1.7
+2013,11,Alor Setar,4,57,1.2
+2013,11,Alor Setar,3,69,1.3
+2013,11,Alor Setar,5,64,1.2
+2013,11,Alor Setar,3,77,1.2
+2013,11,Alor Setar,1,79,1.1
+2013,11,Alor Setar,4,46,1.6
+2013,11,Alor Setar,1,64,1.3
+2013,11,Alor Setar,2,79,1.6
+2013,11,Alor Setar,3,44,1.5
+2013,11,Alor Setar,4,54,1.3
+2013,11,Alor Setar,4,43,1.3
+2013,11,Alor Setar,5,69,1.5
+2013,11,Alor Setar,4,50,1.7
+2013,11,Alor Setar,4,66,1.9
+2013,11,Alor Setar,5,77,1.5
+2013,11,Alor Setar,1,62,1.7
+2013,11,Alor Setar,1,60,1.3
+2013,11,Alor Setar,4,54,1.8
+2013,11,Alor Setar,3,65,2.3
+2013,11,Alor Setar,1,59,2.4
+2013,12,Alor Setar,3,56,1.6
+2013,12,Alor Setar,3,60,1.5
+2013,12,Alor Setar,3,69,0.6
+2013,12,Alor Setar,4,51,0.7
+2013,12,Alor Setar,1,53,1.7
+2013,12,Alor Setar,1,72,2.1
+2013,12,Alor Setar,1,57,2.3
+2013,12,Alor Setar,1,65,2
+2013,12,Alor Setar,3,67,1.8
+2013,12,Alor Setar,2,79,1.4
+2013,12,Alor Setar,4,65,1.2
+2013,12,Alor Setar,1,70,1.1
+2013,12,Alor Setar,1,59,1.6
+2013,12,Alor Setar,1,85,1.8
+2013,12,Alor Setar,6,41,1.4
+2013,12,Alor Setar,4,39,1.4
+2013,12,Alor Setar,4,51,1.6
+2013,12,Alor Setar,1,50,2.2
+2013,12,Alor Setar,1,68,2.4
+2013,12,Alor Setar,1,79,2.1
+2013,12,Alor Setar,1,57,2.1
+2013,12,Alor Setar,1,61,2.4
+2013,12,Alor Setar,1,41,1.9
+2013,12,Alor Setar,2,62,2.1
+2013,12,Alor Setar,1,61,2
+2013,12,Alor Setar,1,69,2.1
+2013,12,Alor Setar,1,75,2.7
+2013,12,Alor Setar,3,61,2.7
+2013,12,Alor Setar,1,65,3
+2013,12,Alor Setar,1,42,2.9
+2013,12,Alor Setar,1,62,2.7
+2013,1,Butterworth,4,45,1.9
+2013,1,Butterworth,5,72,1.7
+2013,1,Butterworth,1,46,1.7
+2013,1,Butterworth,1,71,2.4
+2013,1,Butterworth,1,63,1.9
+2013,1,Butterworth,1,14,2.3
+2013,1,Butterworth,1,32,1.7
+2013,1,Butterworth,5,87,1.85
+2013,1,Butterworth,1,12,1.7
+2013,1,Butterworth,1,29,1.7
+2013,1,Butterworth,1,20,2
+2013,1,Butterworth,1,63,1.7
+2013,1,Butterworth,1,63,1.5
+2013,1,Butterworth,1,29,2.3
+2013,1,Butterworth,1,41,3.6
+2013,1,Butterworth,1,22,2.7
+2013,1,Butterworth,1,84,1.9
+2013,1,Butterworth,1,74,2.4
+2013,1,Butterworth,1,28,2.1
+2013,1,Butterworth,6,46,1.9
+2013,1,Butterworth,5,33,1.6
+2013,1,Butterworth,5,70,1.4
+2013,1,Butterworth,5,82,2
+2013,1,Butterworth,1,33,2
+2013,1,Butterworth,1,49,2.2
+2013,1,Butterworth,1,43,2.2
+2013,1,Butterworth,1,52,2.5
+2013,1,Butterworth,1,55,2.2
+2013,1,Butterworth,2,44,2.5
+2013,2,Butterworth,1,58,2.7
+2013,2,Butterworth,1,25,2.3
+2013,2,Butterworth,1,38,2.2
+2013,2,Butterworth,4,55,1.9
+2013,2,Butterworth,1,72,1.8
+2013,2,Butterworth,2,47,2
+2013,2,Butterworth,4,30,1.6
+2013,2,Butterworth,1,52,1.9
+2013,2,Butterworth,3,41,2
+2013,2,Butterworth,1,33,2
+2013,2,Butterworth,1,52,2.2
+2013,2,Butterworth,4,62,2.1
+2013,2,Butterworth,1,11,1.6
+2013,2,Butterworth,5,0,1.4
+2013,2,Butterworth,2,62,1.6
+2013,2,Butterworth,1,26,1.8
+2013,2,Butterworth,5,53,2
+2013,2,Butterworth,2,33,1.8
+2013,2,Butterworth,4,87,2
+2013,2,Butterworth,4,51,2.4
+2013,2,Butterworth,1,50,2.2
+2013,2,Butterworth,1,55,2.3
+2013,2,Butterworth,4,43,3.3
+2013,2,Butterworth,2,11,3.1
+2013,2,Butterworth,5,24,2.1
+2013,2,Butterworth,2,32,2.2
+2013,2,Butterworth,4,5,1.6
+2013,2,Butterworth,4,50,1.7
+2013,3,Butterworth,4,50,2.1
+2013,3,Butterworth,4,67,1.8
+2013,3,Butterworth,4,25,1.2
+2013,3,Butterworth,1,11,2.1
+2013,3,Butterworth,1,55,2.7
+2013,3,Butterworth,3,44,3.2
+2013,3,Butterworth,4,41,1.7
+2013,3,Butterworth,1,58,2
+2013,3,Butterworth,3,46,1.6
+2013,3,Butterworth,1,30,2
+2013,3,Butterworth,1,46,2.2
+2013,3,Butterworth,1,35,2.4
+2013,3,Butterworth,1,41,2.8
+2013,3,Butterworth,1,45,3
+2013,3,Butterworth,2,82,2.2
+2013,3,Butterworth,4,33,2.2
+2013,3,Butterworth,1,72,1.9
+2013,3,Butterworth,1,87,2.9
+2013,3,Butterworth,1,46,3.2
+2013,3,Butterworth,1,25,2.7
+2013,3,Butterworth,1,56,2.4
+2013,3,Butterworth,4,52,2
+2013,3,Butterworth,1,49,2.2
+2013,3,Butterworth,1,62,2.5
+2013,3,Butterworth,1,45,2.5
+2013,3,Butterworth,3,33,2.7
+2013,3,Butterworth,1,35,2.3
+2013,3,Butterworth,1,34,2.9
+2013,3,Butterworth,1,32,2.7
+2013,3,Butterworth,1,43,2.9
+2013,3,Butterworth,2,43,2.6
+2013,4,Butterworth,3,46,2.3
+2013,4,Butterworth,2,79,2.2
+2013,4,Butterworth,5,32,2.1
+2013,4,Butterworth,5,72,2.3
+2013,4,Butterworth,5,5,2.6
+2013,4,Butterworth,6,34,1.9
+2013,4,Butterworth,1,59,2.2
+2013,4,Butterworth,1,60,2.9
+2013,4,Butterworth,4,20,2.7
+2013,4,Butterworth,5,31,2
+2013,4,Butterworth,5,46,2.2
+2013,4,Butterworth,1,22,2.2
+2013,4,Butterworth,1,79,1.7
+2013,4,Butterworth,1,25,2.1
+2013,4,Butterworth,2,22,2.7
+2013,4,Butterworth,3,29,2.3
+2013,4,Butterworth,2,68,2.7
+2013,4,Butterworth,4,51,2.2
+2013,4,Butterworth,2,67,2.5
+2013,4,Butterworth,1,36,2.6
+2013,4,Butterworth,3,68,2.5
+2013,4,Butterworth,1,74,1.9
+2013,4,Butterworth,2,16,2.7
+2013,4,Butterworth,3,27,2.4
+2013,4,Butterworth,3,33,2.4
+2013,4,Butterworth,2,41,2.5
+2013,4,Butterworth,3,14,2.3
+2013,4,Butterworth,1,47,2.1
+2013,4,Butterworth,2,48,2.4
+2013,4,Butterworth,5,31,2
+2013,5,Butterworth,5,33,1.8
+2013,5,Butterworth,5,48,2.3
+2013,5,Butterworth,5,39,2.7
+2013,5,Butterworth,4,72,2.4
+2013,5,Butterworth,4,25,2.2
+2013,5,Butterworth,4,56,1.6
+2013,5,Butterworth,2,52,2
+2013,5,Butterworth,2,70,2.2
+2013,5,Butterworth,3,32,1.9
+2013,5,Butterworth,1,64,2.8
+2013,5,Butterworth,1,64,3.3
+2013,5,Butterworth,1,29,2.9
+2013,5,Butterworth,1,25,2.2
+2013,5,Butterworth,1,74,2
+2013,5,Butterworth,3,8,2.4
+2013,5,Butterworth,1,43,2.1
+2013,5,Butterworth,3,64,2.5
+2013,5,Butterworth,1,65,2.4
+2013,5,Butterworth,4,68,2.3
+2013,5,Butterworth,4,36,1.7
+2013,5,Butterworth,3,44,2.5
+2013,5,Butterworth,1,59,2.5
+2013,5,Butterworth,4,24,2.2
+2013,5,Butterworth,1,71,2.1
+2013,5,Butterworth,5,71,2.4
+2013,5,Butterworth,1,72,2.1
+2013,5,Butterworth,3,16,2.4
+2013,5,Butterworth,5,60,2.4
+2013,5,Butterworth,1,53,2.5
+2013,5,Butterworth,2,59,2.7
+2013,5,Butterworth,5,31,2.3
+2013,6,Butterworth,5,46,3
+2013,6,Butterworth,5,46,2.4
+2013,6,Butterworth,1,44,1.9
+2013,6,Butterworth,1,74,2.3
+2013,6,Butterworth,5,52,2.9
+2013,6,Butterworth,1,46,2.6
+2013,6,Butterworth,1,46,3.1
+2013,6,Butterworth,5,32,2.9
+2013,6,Butterworth,6,34,2.3
+2013,6,Butterworth,5,49,2.8
+2013,6,Butterworth,5,52,2.4
+2013,6,Butterworth,4,51,1.6
+2013,6,Butterworth,3,46,2.9
+2013,6,Butterworth,1,49,1.7
+2013,6,Butterworth,1,33,1.8
+2013,6,Butterworth,5,22,1.8
+2013,6,Butterworth,2,20,2.3
+2013,6,Butterworth,1,22,1.7
+2013,6,Butterworth,1,45,2.3
+2013,6,Butterworth,1,16,1.4
+2013,6,Butterworth,1,48,1.6
+2013,6,Butterworth,1,27,1.5
+2013,6,Butterworth,1,50,1.7
+2013,6,Butterworth,1,8,2
+2013,6,Butterworth,4,17,2.3
+2013,6,Butterworth,4,46,2.1
+2013,6,Butterworth,2,41,1.3
+2013,6,Butterworth,4,14,1.6
+2013,6,Butterworth,1,24,2.2
+2013,6,Butterworth,3,14,2.4
+2013,7,Butterworth,5,47,1.5
+2013,7,Butterworth,4,65,2.6
+2013,7,Butterworth,6,35,2.3
+2013,7,Butterworth,4,16,2.9
+2013,7,Butterworth,1,14,1.6
+2013,7,Butterworth,1,72,1.7
+2013,7,Butterworth,5,52,1.7
+2013,7,Butterworth,1,22,1.9
+2013,7,Butterworth,1,22,2
+2013,7,Butterworth,1,29,2.1
+2013,7,Butterworth,5,59,2.2
+2013,7,Butterworth,1,87,2
+2013,7,Butterworth,6,24,1.5
+2013,7,Butterworth,5,25,1.6
+2013,7,Butterworth,1,38,1.6
+2013,7,Butterworth,1,55,1.6
+2013,7,Butterworth,1,41,1.9
+2013,7,Butterworth,1,74,1.3
+2013,7,Butterworth,1,44,1.4
+2013,7,Butterworth,1,71,1.8
+2013,7,Butterworth,1,30,1.8
+2013,7,Butterworth,1,44,1.3
+2013,7,Butterworth,1,43,1.3
+2013,7,Butterworth,1,79,1.3
+2013,7,Butterworth,1,31,1.8
+2013,7,Butterworth,1,74,2.1
+2013,7,Butterworth,1,33,1.5
+2013,7,Butterworth,1,14,1.4
+2013,7,Butterworth,1,24,1.8
+2013,7,Butterworth,1,31,2.1
+2013,7,Butterworth,3,38,1.8
+2013,8,Butterworth,5,60,2.3
+2013,8,Butterworth,4,29,2.4
+2013,8,Butterworth,1,79,1.8
+2013,8,Butterworth,1,37,2.4
+2013,8,Butterworth,4,45,1.9
+2013,8,Butterworth,3,76,2.8
+2013,8,Butterworth,1,36,1.8
+2013,8,Butterworth,4,22,2
+2013,8,Butterworth,2,14,1.6
+2013,8,Butterworth,6,32,2.5
+2013,8,Butterworth,4,12,1.7
+2013,8,Butterworth,5,25,1.9
+2013,8,Butterworth,2,26,1.5
+2013,8,Butterworth,1,24,1.8
+2013,8,Butterworth,2,60,2.3
+2013,8,Butterworth,2,26,1.8
+2013,8,Butterworth,5,30,2.2
+2013,8,Butterworth,6,17,3.1
+2013,8,Butterworth,4,72,1.9
+2013,8,Butterworth,1,46,1.6
+2013,8,Butterworth,1,19,2
+2013,8,Butterworth,1,0,1.6
+2013,8,Butterworth,1,41,2.6
+2013,8,Butterworth,1,39,2.3
+2013,8,Butterworth,1,55,1.5
+2013,8,Butterworth,1,37,2.3
+2013,8,Butterworth,1,56,1.8
+2013,8,Butterworth,4,28,2.2
+2013,8,Butterworth,1,17,1.9
+2013,8,Butterworth,4,87,1.8
+2013,8,Butterworth,5,43,2.4
+2013,9,Butterworth,4,16,2.6
+2013,9,Butterworth,1,20,1.7
+2013,9,Butterworth,5,47,1.9
+2013,9,Butterworth,4,32,2
+2013,9,Butterworth,5,38,1.6
+2013,9,Butterworth,6,55,2.8
+2013,9,Butterworth,5,63,2.5
+2013,9,Butterworth,4,49,1.7
+2013,9,Butterworth,6,64,2.2
+2013,9,Butterworth,6,44,2.5
+2013,9,Butterworth,3,12,1.6
+2013,9,Butterworth,3,30,2.2
+2013,9,Butterworth,3,44,2.2
+2013,9,Butterworth,5,35,2.1
+2013,9,Butterworth,2,72,1.7
+2013,9,Butterworth,1,30,1.6
+2013,9,Butterworth,1,76,2.4
+2013,9,Butterworth,1,76,2.3
+2013,9,Butterworth,1,29,2
+2013,9,Butterworth,1,39,1.9
+2013,9,Butterworth,1,44,1.5
+2013,9,Butterworth,1,22,2.2
+2013,9,Butterworth,1,14,2.3
+2013,9,Butterworth,1,79,1.6
+2013,9,Butterworth,1,35,2.1
+2013,9,Butterworth,5,3,2.9
+2013,9,Butterworth,4,45,2.2
+2013,9,Butterworth,5,72,2.2
+2013,9,Butterworth,5,63,1.5
+2013,9,Butterworth,6,32,1.8
+2013,10,Butterworth,5,44,1.5
+2013,10,Butterworth,4,9,1.4
+2013,10,Butterworth,3,43,2.1
+2013,10,Butterworth,5,65,2.9
+2013,10,Butterworth,4,44,2.5
+2013,10,Butterworth,5,57,2.2
+2013,10,Butterworth,4,71,1.2
+2013,10,Butterworth,6,9,2.6
+2013,10,Butterworth,1,33,2.5
+2013,10,Butterworth,1,71,2.6
+2013,10,Butterworth,2,38,2.4
+2013,10,Butterworth,6,40,2.2
+2013,10,Butterworth,5,27,1.7
+2013,10,Butterworth,5,14,1.1
+2013,10,Butterworth,5,62,1.4
+2013,10,Butterworth,5,19,2
+2013,10,Butterworth,5,17,1.7
+2013,10,Butterworth,5,16,2.3
+2013,10,Butterworth,6,71,2.9
+2013,10,Butterworth,4,65,3.2
+2013,10,Butterworth,3,46,2.5
+2013,10,Butterworth,1,50,1.9
+2013,10,Butterworth,2,39,1.5
+2013,10,Butterworth,3,22,1.7
+2013,10,Butterworth,4,87,1.6
+2013,10,Butterworth,3,55,2.1
+2013,10,Butterworth,4,41,1.7
+2013,10,Butterworth,2,63,2.4
+2013,10,Butterworth,1,14,2.3
+2013,10,Butterworth,4,32,2.1
+2013,10,Butterworth,4,72,1.9
+2013,11,Butterworth,1,3,1.9
+2013,11,Butterworth,3,14,2.1
+2013,11,Butterworth,5,11,1.7
+2013,11,Butterworth,1,63,1.4
+2013,11,Butterworth,4,63,1
+2013,11,Butterworth,3,14,1.7
+2013,11,Butterworth,2,12,1.5
+2013,11,Butterworth,4,52,1.6
+2013,11,Butterworth,4,84,1.5
+2013,11,Butterworth,4,59,2
+2013,11,Butterworth,4,19,2.1
+2013,11,Butterworth,4,70,2.4
+2013,11,Butterworth,4,48,2.2
+2013,11,Butterworth,5,55,2
+2013,11,Butterworth,3,52,1.9
+2013,11,Butterworth,4,48,2.2
+2013,11,Butterworth,2,20,1.7
+2013,11,Butterworth,3,43,2.2
+2013,11,Butterworth,4,22,1.3
+2013,11,Butterworth,4,70,2.4
+2013,11,Butterworth,3,44,2
+2013,11,Butterworth,4,58,1.9
+2013,11,Butterworth,5,55,2
+2013,11,Butterworth,4,62,2.4
+2013,11,Butterworth,4,55,2.3
+2013,11,Butterworth,4,49,2.3
+2013,11,Butterworth,2,38,1.5
+2013,11,Butterworth,5,30,2.1
+2013,11,Butterworth,4,67,1.3
+2013,11,Butterworth,4,41,1.8
+2013,12,Butterworth,2,71,2.7
+2013,12,Butterworth,1,22,2.6
+2013,12,Butterworth,2,62,2.3
+2013,12,Butterworth,2,49,1.5
+2013,12,Butterworth,1,24,1.7
+2013,12,Butterworth,1,76,1.7
+2013,12,Butterworth,1,3,2.3
+2013,12,Butterworth,1,30,1.7
+2013,12,Butterworth,4,71,2.4
+2013,12,Butterworth,4,87,1.5
+2013,12,Butterworth,3,36,1.4
+2013,12,Butterworth,1,79,1.5
+2013,12,Butterworth,1,16,1.5
+2013,12,Butterworth,3,82,2
+2013,12,Butterworth,1,11,1.9
+2013,12,Butterworth,3,24,2.3
+2013,12,Butterworth,1,17,1.9
+2013,12,Butterworth,1,5,3.5
+2013,12,Butterworth,1,64,3.4
+2013,12,Butterworth,1,41,2
+2013,12,Butterworth,1,67,2.5
+2013,12,Butterworth,1,16,2.8
+2013,12,Butterworth,1,34,2.2
+2013,12,Butterworth,1,70,3
+2013,12,Butterworth,1,59,2.3
+2013,12,Butterworth,1,41,2.4
+2013,12,Butterworth,4,58,2.3
+2013,12,Butterworth,1,8,3.4
+2013,12,Butterworth,1,68,4.3
+2013,12,Butterworth,3,46,1.7
+2013,12,Butterworth,1,35,1.9
