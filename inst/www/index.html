@@ -1,0 +1,147 @@
+<html>
+
+<head>
+<style type="text/css">
+.knitr .inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.rimage .left {
+  text-align: left;
+}
+.rimage .right {
+  text-align: right;
+}
+.rimage .center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.str {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+<title>DamIT</title>
+</head>
+<script src="opencpu/jquery-1.10.2.min.js"> </script>
+<script src="opencpu/opencpu-0.4.js"> </script>
+<script>
+$(function(){
+  //button handler
+  $("#plotbutton").on("click", function(e){
+    e.preventDefault();
+    $("#plotbutton").attr("disabled", "disabled")
+    var req = $("#plotdiv").rplot("damplot", {
+
+    }).always(function(){
+      $("#plotbutton").removeAttr("disabled");
+    }).fail(function(){
+      alert("HTTP error " + req.status + ": " + req.responseText);
+    });
+  });
+      //perform the request
+    var result_req = ocpu.rpc("damcategory", {      
+      monthSelect : $("#monthSelect").val(),
+      riverSelect : $("#riverSelect").val(),
+      rainSelect : $("#rainSelect").val(),
+      windSelect : $("#windSelect").val()
+    }, function(output){
+      $("#category_result").text(output);
+      console.log(output[0]);   
+    });
+  });       
+  //plot the default values on page load
+  $("#plotbutton").trigger("click")
+});
+</script>
+<body>
+  <p>This is a program to predict rivers, with data fed being generated data.</p>
+
+  <div>
+    <label>Month:</label>
+    <!-- Month dropdown -->
+    <select name="month" id="monthSelect" onchange="" size="1">
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+    </select>
+    <br/>
+    <label>River:</label>
+    <!-- River dropdown -->
+    <select id="riverSelect">
+    <option value="Alor Setar" selected>Alor Setar</option>
+    <option value="Butterworth">Butterworth</option>    
+    </select>
+    <br/>
+    Rain: <select id="rainSelect">
+    <option value="0" >No Rain</option>
+    <option value="1" selected>Very Light Rain</option>
+    <option value="2">Moderate Rain</option>
+    <option value="3">Heavy Rain</option>
+    <option value="4">Very Heavy Rain</option>
+    <option value="5">Extreme Rain</option>
+    </select>
+    <br/>
+    <label class="control-label" for="windSelect">Wind</label>
+    <select id="windSelect">
+    <option value="True">True</option>
+    <option value="False">False</option>
+    </select>
+    </div>
+    <div>
+      Result: <div id="category_result"></div>
+    </div>    
+    <div><button id="plotbutton">Update Graph</button></div>
+</body>
+</html>
