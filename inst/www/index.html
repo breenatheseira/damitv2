@@ -1,5 +1,4 @@
 <html>
-
 <head>
 <style type="text/css">
 .knitr .inline {
@@ -72,26 +71,17 @@ $(function(){
   //button handler
   $("#plotbutton").on("click", function(e){
     e.preventDefault();
-    $("#plotbutton").attr("disabled", "disabled")
-    var req = $("#plotdiv").rplot("damplot", {
-
-    }).always(function(){
-      $("#plotbutton").removeAttr("disabled");
-    }).fail(function(){
-      alert("HTTP error " + req.status + ": " + req.responseText);
-    });
-  });
       //perform the request
-    var result_req = ocpu.rpc("damcategory", {      
+    var result_req = ocpu.rpc("damcategory", {
       monthSelect : $("#monthSelect").val(),
       riverSelect : $("#riverSelect").val(),
       rainSelect : $("#rainSelect").val(),
       windSelect : $("#windSelect").val()
     }, function(output){
       $("#category_result").text(output);
-      console.log(output[0]);   
+      console.log(output[0]);
     });
-  });       
+  });
   //plot the default values on page load
   $("#plotbutton").trigger("click")
 });
@@ -120,13 +110,13 @@ $(function(){
     <label>River:</label>
     <!-- River dropdown -->
     <select id="riverSelect">
-    <option value="Alor Setar" selected>Alor Setar</option>
-    <option value="Butterworth">Butterworth</option>    
+    <option value="Alor Setar">Alor Setar</option>
+    <option value="Butterworth">Butterworth</option>
     </select>
     <br/>
     Rain: <select id="rainSelect">
-    <option value="0" >No Rain</option>
-    <option value="1" selected>Very Light Rain</option>
+    <option value="0">No Rain</option>
+    <option value="1">Very Light Rain</option>
     <option value="2">Moderate Rain</option>
     <option value="3">Heavy Rain</option>
     <option value="4">Very Heavy Rain</option>
@@ -141,7 +131,7 @@ $(function(){
     </div>
     <div>
       Result: <div id="category_result"></div>
-    </div>    
+    </div>
     <div><button id="plotbutton">Update Graph</button></div>
 </body>
 </html>
