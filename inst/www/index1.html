@@ -72,13 +72,14 @@ $(function(){
   $("#plotbutton").on("click", function(e){
     e.preventDefault();
       //perform the request
-    var req = ocpu.rpc("raincategory", {
+    var result_req = ocpu.rpc("damcategory", {
       monthSelect : $("#monthSelect").val(),
       riverSelect : $("#riverSelect").val(),
       rainSelect : $("#rainSelect").val(),
       windSelect : $("#windSelect").val()
     }, function(output){
       $("#category_result").text(output);
+      console.log(output[0]);
     });
   });
   //plot the default values on page load
@@ -114,11 +115,12 @@ $(function(){
     </select>
     <br/>
     Rain: <select id="rainSelect">
-    <option value="Dry">Dry</option>
-    <option value="Critical Low">Critical Low</option>
-    <option value="Average">Average</option>
-    <option value="Critical High">Critical High</option>
-    <option value="Overflow">Overflow</option>    
+    <option value="0">No Rain</option>
+    <option value="1">Very Light Rain</option>
+    <option value="2">Moderate Rain</option>
+    <option value="3">Heavy Rain</option>
+    <option value="4">Very Heavy Rain</option>
+    <option value="5">Extreme Rain</option>
     </select>
     <br/>
     <label class="control-label" for="windSelect">Wind</label>
